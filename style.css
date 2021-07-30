@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: relative;
+    background-image: url("https://previews.123rf.com/images/karenr/karenr1506/karenr150600007/40831894-blue-and-white-striped-gingham-tile-pattern-repeat-background-that-is-seamless-and-repeats.jpg");
+    background-size: 50%;
+    margin: 10% 20%;
+    font-family: Blippo, fantasy !important;
+}
+
+#container #title {
+    padding-top: 20px;
+    text-align: center;
+    font-family: Blippo, fantasy;
+}
+
+#container #quiz {
+    border: 3px solid rgb(126, 124, 124);
+    /* background-clip: content-box; */
+    background-color: rgba(172, 168, 168, 0.4);
+    padding: 10px;
+    margin: 5% 20%;
+}
+
+#quiz #question {
+    font-size: 20px;
+}
+
+#option input {
+    width: 25px;
+    height: 25px;
+}
+
+#option label {
+    font-size: 20px;
+}
+
+#container .div-button-startover,
+#container .div-button {
+    text-align: center;
+    margin: 12px 12px;
+}
+
+#container .div-button-startover .button,
+#container .div-button .button {
+    background-color: rgb(196, 146, 196);
+    width: 150px;
+    text-align: center;
+    padding: 15px 10px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Blippo, fantasy;
+}
+
+#container .div-button-startover .button:hover,
+#container .div-button .button:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        margin: 0;
+        height: 1000px;
+    }
+    #container #quiz {
+        padding: 10px;
+        margin: 8px;
+    }
+}
