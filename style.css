@@ -13,7 +13,6 @@
 #container #title {
     padding-top: 20px;
     text-align: center;
-    font-family: Blippo, fantasy;
 }
 
 #container #quiz {
@@ -68,7 +67,7 @@
 @media only screen and (max-width: 600px) {
     #container {
         margin: 0;
-        height: 1000px;
+        height: 2000px;
     }
     #container #quiz {
         padding: 10px;
