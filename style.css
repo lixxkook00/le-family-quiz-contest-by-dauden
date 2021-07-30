@@ -8,7 +8,6 @@
     background-image: url("https://previews.123rf.com/images/karenr/karenr1506/karenr150600007/40831894-blue-and-white-striped-gingham-tile-pattern-repeat-background-that-is-seamless-and-repeats.jpg");
     background-size: 50%;
     margin: 10% 20%;
-    font-family: Blippo, fantasy !important;
 }
 
 #container #title {
@@ -53,7 +52,6 @@
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
-    font-family: Blippo, fantasy;
 }
 
 #container .div-button-startover .button:hover,
